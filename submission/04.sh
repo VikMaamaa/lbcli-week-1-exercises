@@ -1,2 +1,3 @@
 # Create a wallet with the name "builderswallet".
-bitcoin-cli createwallet "builderswallet"
+#!/bin/bash
+bitcoin-cli -regtest createwallet "builderswallet"
